@@ -1,0 +1,16 @@
+.btn {
+  color: black;
+  background-color: lightblue;
+  padding:1em;
+  margin: 1em;
+  border: none;
+  border-radius: 3%;
+  &:disabled {
+   background-color: white;
+   color: #c3c3c3;
+   cursor:not-allowed;
+  }
+   &:hover{
+    text-decoration:underline;
+   }
+}
